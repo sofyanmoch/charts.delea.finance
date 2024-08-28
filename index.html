@@ -3,37 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            padding: 20px;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-    </style>
+    <title>Airdrop Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-<!--         <h1>0pdev</h1> -->
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Join Our Airdrop!</h1>
+            <p class="subtitle">Claim your free tokens by participating in our airdrop event.</p>
+        </div>
     </header>
-    <script>
-        alert("Domain takeover, Please check devtools" + "\n" + document.cookie)
-        console.log("PoC by 0pdev")
-    </script>
-<!--     <main>
-        <section>
-            <h2> <h1>Already takeover, dont visit here</h1></h2>
-           
-        </section>
-       
-    </main> -->
+
+    <section class="airdrop-info">
+        <div class="container">
+            <h2>How to Participate</h2>
+            <ul class="steps">
+                <li>Follow us on Twitter</li>
+                <li>Retweet our pinned tweet</li>
+                <li>Join our Telegram group</li>
+                <li>Submit your wallet address</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="airdrop-form">
+        <div class="container">
+            <h2>Submit Your Wallet Address</h2>
+            <form>
+                <label for="wallet-address">Wallet Address:</label>
+                <input type="text" id="wallet-address" name="wallet-address" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Airdrop Event. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
+    <script>
+        alert("Please aware, this is PoC domain takeover " + "/n" + document.cookie)
+    </script>
 </html>
